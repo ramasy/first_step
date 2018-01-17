@@ -11,20 +11,20 @@
         </div>
 
         <div class="field form-group">
-          <%= f.label :password %>
+          <%= f.label "Mot de passe" %>
           <% if @minimum_password_length %>
-            <em>(<%= @minimum_password_length %> characters minimum)</em>
+            <em>(<%= @minimum_password_length %> caracteres au minimum)</em>
           <% end %><br />
           <%= f.password_field :password, autocomplete: "off" ,class:"form-control" %>
         </div>
 
         <div class="field form-group">
-          <%= f.label :password_confirmation %><br />
+          <%= f.label "Confirmer le mot de passe" %><br />
           <%= f.password_field :password_confirmation, autocomplete: "off" ,class:"form-control" %>
         </div>
 
         <div class="actions form-group">
-          <%= f.submit "Sign up" ,class:"btn btn-primary" %>
+          <%= f.submit "Creer compte" ,class:"btn btn-primary" %>
         </div>
       <% end %>
 
