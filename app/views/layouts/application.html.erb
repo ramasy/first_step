@@ -8,6 +8,8 @@
   </head>
 
   <body>
+    <div class="notice"><%= notice %></div>
+    <div class="alert"><%= alert %></div>
     <%= yield %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>

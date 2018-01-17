@@ -15,3 +15,13 @@
  *= require_self
  *= require_tree .
  */
+
+.bloc-login, .bloc-signup{
+    width: 400px;
+    background-color: #fff;
+    float: none;
+    margin: 90px auto;
+    border-radius: 2px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+    padding: 10px 25px 50px 25px;
+}
