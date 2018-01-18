@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: first_step_production
-  username: first_step
-  password: <%= ENV['FIRST_STEP_DATABASE_PASSWORD'] %>
+  #username: first_step
+  #password: <%= ENV['FIRST_STEP_DATABASE_PASSWORD'] %>
